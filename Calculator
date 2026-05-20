@@ -1,0 +1,63 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hafsssaet25/principle_python/blob/main/Calculator\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num_1 = int(input(\"Entre the first number:  \"))\n",
+        "num_2 = int(input(\"Entre the second number: \"))\n",
+        "operador = input(\"choose the operator (+,-,*,/): \")\n",
+        "if operador == \"+\" :\n",
+        "    print(num_1 + num_2)\n",
+        "\n",
+        "elif operador == \"*\":\n",
+        "    print(num_1 * num_2)\n",
+        "\n",
+        "elif operador == \"/\" :\n",
+        "  if num_2 == 0 :\n",
+        "    print(\"You cannot divide by 0 \")\n",
+        "  else :\n",
+        "    print(num_1 / num_2)\n",
+        "\n",
+        "elif operador == \"-\":\n",
+        "  print(num_1 - num_2)\n",
+        "\n",
+        "else :\n",
+        "  print(\"Error\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "pVaFUSKndmqq"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Te damos la bienvenida a Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
